@@ -99,7 +99,7 @@ body {
   margin-left: 3rem;
   text-align: left;
   pointer-events: auto;
-  font-size: 5rem;
+  font-size: clamp(2rem, 6vw, 6rem);
   font-weight: 100;
   color: white;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
@@ -108,11 +108,12 @@ body {
 .banner-col.right {
   width: 50%;
   margin-top: 3rem;
-  margin-right: 2.3rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
   text-align: left;
   pointer-events: auto;
-  line-height: 2.9rem;
-  font-size: 2.5rem;
+  font-size: clamp(1rem, 2.2vw, 3rem);
+  line-height: clamp(1.1rem, 2.5vw, 3.2rem);
   font-weight: 100;
   color: white;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
