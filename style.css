@@ -162,7 +162,7 @@ body {
 .panel.open { height: auto; }
 .panel img {
     width: auto;
-    height: 20vw;
+    height: 15vw;
   }
 .panel p {
   margin: 2rem 3rem;
@@ -285,18 +285,18 @@ body {
     margin: 0 3rem 2rem 3rem;
     padding-top: 0;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
   }
   .logos-section:first-child { flex: 1; }
   .logos-section:last-child { flex: 2; }
   .logos-grid {
     flex-wrap: wrap;
-    gap: 4vw;
+    gap: 3vw;
   }
   .logos-grid img {
-    max-height: 40px;
-    max-width: 100px;
+    max-height: 30px;
+    max-width: 80px;
   }
   #apoios-logos { justify-content: space-between; }
 }
