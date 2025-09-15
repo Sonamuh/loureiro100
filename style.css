@@ -291,8 +291,8 @@ body {
   .logos-section:first-child { flex: 1; }
   .logos-section:last-child { flex: 2; }
   .logos-grid {
-    flex-wrap: wrap;
-    gap: 4vw;
+    flex-wrap: nowrap;
+    gap: 3vw;
   }
   .logos-grid img {
     max-height: auto;
