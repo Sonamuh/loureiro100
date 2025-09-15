@@ -57,12 +57,13 @@ body {
 .banner {
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 70dvh;
 }
 .banner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 85%;
   filter: brightness(0.4);
 }
 .banner-content {
@@ -84,15 +85,15 @@ body {
   text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
 }
 .banner-col.right {
-  width: 50%;
-  margin: 3rem 3rem 0 3rem;
-  text-align: left;
-  pointer-events: auto;
-  font-size: clamp(1rem, 1.8vw, 3rem);
-  line-height: clamp(1.1rem, 2.2vw, 3.2rem);
-  font-weight: 100;
-  color: white;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    width: 50%;
+    margin: 3rem 3rem 0 3rem;
+    text-align: left;
+    pointer-events: auto;
+    font-size: clamp(0.8rem, 1.2vw + 1vh, 2.2rem);
+    line-height: clamp(1rem, 1.5vw + 1.2vh, 2.8rem);
+    font-weight: 100;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
 }
 
 /* ----------------------------- */
@@ -107,7 +108,7 @@ body {
 /* ----------------------------- */
 .toggle-btn {
   width: 100%;
-  height: 10vh;
+  height: 10dvh;
   color: rgb(27, 27, 27);
   display: flex;
   align-items: center;
@@ -160,10 +161,9 @@ body {
 }
 .panel.open { height: auto; }
 .panel img {
-  width: 20vw;
-  height: 20vw;
-  object-fit: cover;
-}
+    width: auto;
+    height: 20vw;
+  }
 .panel p {
   margin: 2rem 3rem;
   font-size: 1.1rem;
@@ -183,20 +183,30 @@ body {
 /* ----------------------------- */
 /* ELEMENTOS EXTRA */
 /* ----------------------------- */
-#card {
+/* estilos base para todos os cards */
+#card, #card2, #card3, #card4, #card5,
+#card6, #card7, #card8, #card9, #card10,
+#card11, #card12, #card13, #card14, #card15 {
   cursor: pointer;
   position: absolute;
-  top: 10%;
-  left: 70%;
-  rotate: 10deg;
 }
-#card2 {
-  cursor: pointer;
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  rotate: -10deg;
-}
+
+#card  { top: 12%; left: 65%; rotate:  7deg; }
+#card2 { top: 28%; left: 52%; rotate: -6deg; }
+#card3 { top: 18%; left: 60%; rotate:  3deg; }
+#card4 { top: 22%; left: 48%; rotate: -9deg; }
+#card5 { top: 34%; left: 68%; rotate: 10deg; }
+#card6 { top: 14%; left: 55%; rotate: -4deg; }
+#card7 { top: 30%; left: 62%; rotate:  8deg; }
+#card8 { top: 16%; left: 58%; rotate: -7deg; }
+#card9 { top: 24%; left: 45%; rotate:  5deg; }
+#card10{ top: 36%; left: 70%; rotate: -8deg; }
+#card11{ top: 20%; left: 50%; rotate:  9deg; }
+#card12{ top: 32%; left: 66%; rotate: -5deg; }
+#card13{ top: 15%; left: 62%; rotate:  4deg; }
+#card14{ top: 27%; left: 47%; rotate: -10deg; }
+#card15{ top: 38%; left: 69%; rotate:  6deg; }
+
 .spacer {
   font-size: 1.5rem;
   margin: 3rem 0 0.5rem 3rem;
@@ -215,7 +225,7 @@ body {
   font-weight: 100;
   color: rgb(27, 27, 27);
 }
-.description { width: 40%; }
+.description { width: 50%; }
 .program { display: flex; margin-bottom: 1.5rem; }
 
 /* ----------------------------- */
@@ -285,8 +295,8 @@ body {
     gap: 4vw;
   }
   .logos-grid img {
-    max-height: 60px;
-    max-width: 120px;
+    max-height: 40px;
+    max-width: 100px;
   }
   #apoios-logos { justify-content: space-between; }
 }
@@ -422,5 +432,21 @@ body {
   .logos-grid { column-gap: 9vw;
 }
 
+  #card  { top: 12%; left: 25%; rotate:  6deg; }
+  #card2 { top: 22%; left: 55%; rotate: -8deg; }
+  #card3 { top: 40%; left: 30%; rotate:  4deg; }
+  #card4 { top: 55%; left: 45%; rotate: -7deg; }
+  #card5 { top: 70%; left: 35%; rotate:  9deg; }
+  #card6 { top: 10%; left: 50%; rotate: -5deg; }
+  #card7 { top: 20%; left: 30%; rotate: 10deg; }
+  #card8 { top: 30%; left: 15%; rotate: -6deg; }
+  #card9 { top: 60%; left: 42%; rotate:  7deg; }
+  #card10{ top: 80%; left: 30%; rotate: -9deg; }
+  #card11{ top: 10%; left: 10%; rotate:  8deg; }
+  #card12{ top: 30%; left: 23%; rotate: -4deg; }
+  #card13{ top: 45%; left: 58%; rotate:  5deg; }
+  #card14{ top: 65%; left: 33%; rotate: -10deg; }
+  #card15{ top: 42%; left: 40%; rotate:  3deg; }
 
 }
+/* ----------------------------- */
