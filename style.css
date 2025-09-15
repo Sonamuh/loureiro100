@@ -162,7 +162,7 @@ body {
 .panel.open { height: auto; }
 .panel img {
     width: auto;
-    height: 15vw;
+    height: 10vw;
   }
 .panel p {
   margin: 2rem 3rem;
@@ -309,8 +309,10 @@ body {
   #right-txt { text-align: left; }
   .description { width: 80%; }
   .logos-bar { margin: 3rem; }
-  
-
+  .panel img {
+    width: auto;
+    height: 13vw;
+  }
 }
 
 /* ----------------------------- */
@@ -321,6 +323,11 @@ body {
     grid-template-columns: 1fr;
     margin: 1rem;
     gap: 0;
+  }
+
+  .panel img {
+    width: auto;
+    height: 15vw;
   }
   .coluna {
     font-weight: 100;
