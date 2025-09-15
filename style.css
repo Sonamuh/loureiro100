@@ -292,13 +292,13 @@ body {
   .logos-section:last-child { flex: 2; }
   .logos-grid {
     flex-wrap: wrap;
-    gap: 3vw;
+    gap: 4vw;
   }
   .logos-grid img {
-    max-height: 30px;
-    max-width: 80px;
+    max-height: auto;
+    max-width: 7vw;
   }
-  #apoios-logos { justify-content: space-between; }
+  #apoios-logos { justify-content: flex-start; }
 }
 
 /* ----------------------------- */
