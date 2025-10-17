@@ -282,7 +282,7 @@ body {
 @media (min-width: 992px) {
   .logos-bar {
     border: none;
-    margin: 0 3rem 2rem 3rem;
+    margin: 0 0rem 2rem 3rem;
     padding-top: 0;
     flex-direction: row;
     justify-content: flex-start;
